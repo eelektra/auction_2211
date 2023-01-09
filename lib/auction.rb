@@ -10,7 +10,11 @@ class Auction
    @items << item
   end
 
-  def add_item_names
-    
+  def item_names
+    item_names = []
+    @items.each do |item|
+      item_names << item.name
+    end
+    item_names
   end
 end
