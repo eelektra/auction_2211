@@ -17,4 +17,9 @@ class Auction
     end
     item_names
   end
+
+  def unpopular_items
+   
+    @unpopular_items << 
+  end
 end
