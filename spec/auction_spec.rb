@@ -75,10 +75,7 @@ describe Auction do
       item1.add_bid(attendee2, 20)
       item1.add_bid(attendee1, 22)
 
-      expect(item1.bids).to eq ({
-#     #<Attendee:0x00007fdc071131c8 ...> => 20,
-#     #<Attendee:0x00007fdc088f0e08 ...> => 22
-#   }
+      expect(item1.bids).to eq ({attendee2 => 20, attendee1=> 22})
     end
 
 

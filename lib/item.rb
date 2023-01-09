@@ -8,4 +8,6 @@ class Item
     @bids = {}
   end
 
+  
+
 end
