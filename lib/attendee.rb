@@ -1,8 +1,11 @@
 class Attendee
 
-  def initialize(name, budget)
-    @name = name
-    @budget = budget
+  attr :name,
+       :budget
+
+  def initialize(attributes)
+    @name = attributes
+    @budget = attributes
   end
 
 end
