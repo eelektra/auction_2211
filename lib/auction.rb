@@ -19,7 +19,8 @@ class Auction
   end
 
   def unpopular_items
-   
-    @unpopular_items << 
+    @items.each do |bid|
+    @unpopular_items << @items if bid = nil
+    end
   end
 end

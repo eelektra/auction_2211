@@ -80,8 +80,8 @@ describe Auction do
 
       item4.add_bid(attendee3, 50)
 
-      expect(auction.unpopular_items).to eq([])
-      
+      expect(auction.unpopular_items).to eq([item2, item3, item4])
+
     end
 
 
