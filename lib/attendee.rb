@@ -5,7 +5,8 @@ class Attendee
 
   def initialize(attributes)
     @name = attributes[:name]
-    @budget = attributes[:budget]
+    @budget = (attributes[:budget].delete"$").to_i
+    #require 'pry'; binding.pry
   end
 
 end
