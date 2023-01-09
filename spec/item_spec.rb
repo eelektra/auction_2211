@@ -25,7 +25,5 @@ describe Item do
 
       expect(item2.name).to eq('Bamboo Picture Frame')
     end
-
-
   end
 end
