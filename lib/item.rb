@@ -12,4 +12,5 @@ class Item
     @bids[attendee] = bid 
   end
 
+  
 end
