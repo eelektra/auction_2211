@@ -8,5 +8,7 @@ describe Attendee do
 
       expect(attendee).to be_a(Attendee)
     end
+
+    
   end
 end
