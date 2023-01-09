@@ -1,8 +1,11 @@
 class Item
 
-  attr :name
+  attr :name,
+       :bids
   
   def initialize(name)
     @name = name
+    @bids = {}
   end
+
 end
